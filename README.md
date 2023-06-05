@@ -1,17 +1,19 @@
 # Latihan Git
 
-```python
+## Front End 
+- masuk ke folder front-end di terminal
+- ketik `npm install` lalu enter
+- buka browser , lalu ketik `localhost:3000`
 
-test = "test"
-```
-
-| name | class |
-|------ | -------|
-| dimas | 1    |
-
-- item 1
-- item 2
-- item 3
+## Back End 
+- masuk ke folder backend 
+- buka terminal , arahkan ke working directory project folder backend 
+- ketik `npm install` lalu enter
+- buat database `nama_db` di database administrator mysql
+- ketik `sequelize db:migrate` lalu enter
+- ketik `sequelize db:seed:all` lalu enter
+- ketik `nodemon index` untuk menjalankan aplikasi
+- buka browser , lalu ketik `localhost:4567` untuk menjalankan API
 
 ```git
 
@@ -28,7 +30,4 @@ git branch nama_branch : untuk membuat nama branch baru
 git checkout : untuk berpindah branch 
 git checkout -b nama_branch : untuk membuat branch baru san pindah ke branch itu 
 git branch -M main : 
-
-
-
 ```
